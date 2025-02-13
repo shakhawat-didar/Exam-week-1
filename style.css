@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+/*-------------------Navbar-------------------*/
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: #222831;
+  padding: 25px 0px ;
+  color: #EEEEEE;
+  border-bottom: 1px solid #EEEEEE ;
+}
+.nav-brand{
+  font-family: poppins;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 96px;
+  
+  
+}
+.nav-brand a{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+.nav-link{
+  color: #EEEEEE !important;
+}
+.nav-menu{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 96px; 
+  text-decoration: none;
+ 
+}
+
+/*--.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 255, 255, 0.8' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }--*/
+
+  /*-------------------1st Page-------------------*/
+.text-section{
+margin-bottom: 0px;
+padding-left: 100px;
+padding-top: 100px;
+
+}
+.img-section{
+  margin: 0% auto;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+
+
+.fp-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 96px;
+color: #FFFFFF;
+}
+
+.fp-text span{
+  color: #00ADB5;
+
+}
+body{
+  background-color:#222831;
+  color: #FFFFFF;
+}
+.fp-button button{
+  color: #FFFFFF;
+  padding: 3px 15px;
+}
+
+.fp-btn-1{
+  background-color: #00ADB5;
+}
+.fp-btn-2{
+  background-color: #393E46;
+}
+.bi-arrow-down{
+
+  background-color: #393E46;
+  font-size: 27px;
+  padding: 14px 19px;
+  margin-top: 15px;
+  margin-left: 324px;
+  margin-bottom: 20px;
+color: #FFFFFF;
+}
+
+/*-------------------2nd Page-------------------*/
+.snd-img{
+  background-image: url("./Assets/doodle items.png");
+}
+
+.snd-page{
+  margin-top: 130px;
+  margin-bottom: 130px
+
+}
+.snd-text-section{
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+}
+
+/*-------------------3rd Page-------------------*/
+.rd-text-section{
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  background-image: url("./Assets/Image20250209221602.png");
+}
+.img-3nd{
+  margin-top: 20px;
+  height: 200px;
+  width: auto;
+display: flex;
+justify-content: center;
+
+}
+
+
+/*-------------------4th Page-------------------*/
+
+.th-content-section{
+  padding: 200px 100px;
+  display: flex;
+}
+.th-content-section img{
+  display: flex;
+  justify-content: flex-end;
+  height: 220px;
+  width: auto;
+
+}
+.th-content-section h3{
+  font-family: 'Poppins';
+  padding: 0%;
+}
+.contact-form i{
+  color: #FFFFFF;
+  text-shadow: #393E46;
+}
+.contact-form button{
+  color: #FFFFFF;
+  text-shadow: #393E46;
+}
+.form-control{
+  color: #222831;
+  background-color: #393E46;
+}
+
+/*-------------------Footer-------------------*/
+.footer-section{
+margin: 100px 0px;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  gap: 30px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  gap: 20px;
+}
+.social-icons i{
+  background-color: #393E46;
+  border-radius: 44%;
+  border: 1px solid #393E46;
+  border-width: 9px;
+  opacity: 75%;
+  margin-top: 20px;
+}
+.footer-section p{
+  text-align: end;
+  color: #EEEEEE;
+  font-size: smaller;
+  opacity: 75%;
+  margin-top: 50px;
+}
